@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <script type="text/javascript">
+        function displayUrlParameters() {
+            const urlParams = new URLSearchParams(window.location.search);
+            document.getElementById("firstname").innerHTML = urlParams.get("firstname");
+            document.getElementById("lastname").innerHTML = urlParams.get("lastname");
+
+            const entries = urlParams.entries();
+            var htmlResult = "<ul>"
+            for(const entry of entries) {
+                if (entry[0] == "firstname" && entry[0] == "lastname") {
+                    continue;
+                }
+
+                htmlResult += "<li>" + entry[0] + ": " + entry[1] + "</li>";
+            }
+            htmlResult += "</ul>"
+
+            document.getElementById("surveyResult").innerHTML = htmlResult
+        }        
+    </script>
+</head>
+<html>
+    <body onload="displayUrlParameters()">
+        <h1>Résultat du sondage pour <span id="firstname"></span> <span id="lastname"></span></h1>
+        <p id="surveyResult">
+        </p>
+    </body>
+</html>
