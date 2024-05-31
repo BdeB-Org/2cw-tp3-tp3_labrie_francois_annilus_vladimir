@@ -1,19 +1,18 @@
 .button {
-    display:flex;
+    display:table;
     padding: 10px 20px;
-    background-color: #48728afd;
-    color: #fff;
+    width: 100px; /* Largeur des boutons */
+    color: #080ce2;
     text-decoration:solid;
     font-size: 17px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     transition: background-color 0.3s ease;
     
   }
 /* Style pour le survol des boutons */
 .button:hover {
-    background-color: #0056b3;
+    background-color: #57b1fa69;
   }
  
  
@@ -22,10 +21,7 @@
 }
 
 
-.container {
-    float: right;
-    margin-right: 20px; /* Ajoutez une marge pour l'espacement */
-  }
+
   
   .table2 {
     border-collapse: collapse;
@@ -45,7 +41,7 @@
     cursor: pointer;
   }
   
-  .button:hover {
+  .button1:hover {
     background-color: #0056b3;
   }
 .bodyinscription {
@@ -258,6 +254,8 @@
   }
   
   .footer .container {
+    float:right;
+    margin-right: 20px; /* Ajoutez une marge pour l'espacement */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -299,4 +297,13 @@
   .footer-column ul li a:hover {
     color: #333;
   }
-  
+  .bodyPropos {
+    /* Spécifie l'image à utiliser comme arrière-plan */
+    background-image: url('images/complet-2024.webp');
+
+    /* Ajuste le comportement de l'image de fond */
+    background-size: cover; /* Couvre l'intégralité de l'arrière-plan */
+    background-position: center; /* Centre l'image de fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    /* Vous pouvez également utiliser 'background-repeat: repeat;' si vous voulez répéter l'image */
+}
