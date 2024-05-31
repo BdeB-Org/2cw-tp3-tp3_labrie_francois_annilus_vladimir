@@ -6,15 +6,15 @@
     <title>Accueil</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    <header class="header">
-   <!-- Navigation principale-->
-   <table>
-    <tr>
-        <th><a href="index.html"><img src="images/logoB.png" alt="Logo du TAZ" width="80" height="80" /></a></th>
-        <th><a href="services.html">Nos Services</a></th>
-        <th><a href="propos.html">À Propos</a></th>
-        <th><a href="partenaires.html">Nos Partenaires</a></th>
+    <body>
+        <header class="header">
+    <!-- Navigation principale-->
+    <table>
+        <tr>
+        <th><a href="index.html"><img src="images/logoB.png" alt="Logo de LaBrie" width="80" height="80" /></a></th>
+        <th><a  href="services.html" class ="button">Nos Services</a></th>
+        <th><a href="propos.html" class ="button">À Propos</a></th>
+        <th><a href="partenaires.html" class ="button">Nos Partenaires</a></th>
         <th width="100%"></th> 
         <th><a href="services.html"><img src="images/loupe.png" alt="Logo du TAZ" width="40" height="40" /></a></th></th>               
         <th><a href="inscription.html"><img src="images/etudiant.png"/></a></th> 
@@ -27,20 +27,22 @@
                 <option value="it">Italien</option>
                 <option value="zh">Chinois</option>
             </select>
-        </div></a></th>       
+        </div></a></th>    
         
-    </tr>
-</table>
-    </br>
-<table>
-    <tr>
-        <th><a href="server.html">Comptes Bancaires</a></th>
-        <th><a href="server.html">Cartes de credits</a></th>
-        <th><a href="server.html">Hypothèques</a></th>
-        <th><a href="server.html">Assurances</a></th>
-        <th width="100%"></th>                     
-    </tr>
-</table>
+        </tr>
+    </table>
+ 
+    <div class="container">
+    <table class="table2">
+        <tr class="options">
+            <th><a href="server.html" class ="button1">Comptes Bancaires</a></th>
+            <th><a href="server.html" class ="button1">Cartes de credits</a></th>
+            <th><a href="server.html" class ="button1">Hypothèques</a></th>
+            <th><a href="server.html" class ="button1">Assurances</a></th>
+            <th width="100%"></th>                     
+        </tr>
+    </table>
+    </div>
 <img src="images/MTbnx8.jpg" alt="image banque" width="100%" height="700"/>
 <!-- Présentation-->
 <h1>Bienvenue au LaBrie Banque</h1>      
@@ -57,49 +59,36 @@
         </br>
         <img src="images/mobile-banking-online-payment-concept-600nw-1900200964.webp" alt="Description de l'image" width="300" height="200">
 
-    <footer class="footer_propos">
-        <div class="imageF_propos">
-        <img src="/images/logo.png" width="300" height="60">
-    </div>
-    <h3 class="destination_propos">Venez faire l'éxperience avec LaBrie Banque!</h3>
-    <div class="contact-info_propos">
-
-        <p>700, rue Port-Royal, QC H2Y 1T9</p>
-        info@labriebank.com<br>1 123 456 7890</p>
-    </div>
-    <table>
-        <tr class="social-icons_propos">
-            <div class="interet_propos">
-                <h2> Interessez de nous rejoindre? </h2>
+        <footer class="footer">
+            <div class="social-icons">
+                <a href="#" class="social-icon"><img src="images/yt.png" alt="Logo YT" width="80" height="80"></a>                               
+                <a href="#" class="social-icon"><img src="images/facebook.png" alt="Facebook" width="80" height="80"></a>
+                <a href="#" class="social-icon"><img src="images/uinstaaa.png" alt="Instagram" width="80" height="80"></a>
+                <a href="#" class="social-icon"><img src="images/linkedin-logo-3.png" alt="Logo Linkedin" width="80" height="75"></a>
+                <a href="#" class="social-icon"><img src="images/X_logo.jpg" alt="LogoX" width="80" height="80"></a>
+              </div>
+            <div class="container">
+              <div class="footer-content">
+                <div class="footer-column">
+                  <h3>Accessibilité</h3>
+                  <p>N'hésitez pas à prendre contact avec nos agents <br> et à utiliser nos services en ligne</p>
+                </div>
+                <div class="footer-column">
+                  <h3>Autres Services</h3>
+                  <ul>
+                    <li><a href="#">Trouver une succursale</a></li>
+                    <li><a href="#">Centre de sécurité </a></li>
+                    <li><a href="#">Information SADC</a></li>
+                  </ul>
+                </div>
+                <div class="footer-column">
+                  <h3>Contact</h3>
+                  <p>700 Rue Port-Royal, Montréal, QC</p>
+                  <p>Téléphone: 514 658 2507</p>
+                  <p>Email: labriebank@info.ca</p>
+                </div>
+                </div>
             </div>
-            <th>
-                <a href="#" target="_blank"><img src="/images/facebook.png" alt="Facebook" ></a>
-            </th>
-            <th>
-                <a href="#" target="_blank"><img src="/images/twutta.png" alt="Twitter" ></a>
-            </th>
-            <th>
-                <a href="#" target="_blank"><img src="/images/uinstaaa.png" alt="Instagram"></a>
-            </th>
-            <th>
-                <a href="#" target="_blank"><img src="/images/yt.png" alt="YouTube"></a>
-            </th>
-            <th>
-                <a href="#" target="_blank"><img src="/images/linkedin-logo-3.png" alt="Linkedin"></a>
-            </th>
-
-        </tr>
-    </table>
-
-
-    <br><p class="credits_propos">LaBrie Banque, Titulaire d’un permis du Québec. 
-        Crédits Hamak </br>
-        Tous droits réservés © 2010-2024 
-    </p>
-
-    <div class="payment_propos">
-        <img src="/images/stripe.png">
-    </div>
-</footer>     
+          </footer>
 </body>
 </html>
