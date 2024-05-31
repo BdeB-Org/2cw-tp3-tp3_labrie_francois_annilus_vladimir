@@ -307,3 +307,9 @@
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
     /* Vous pouvez également utiliser 'background-repeat: repeat;' si vous voulez répéter l'image */
 }
+.PartenairesParagarph{
+  position: center;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
