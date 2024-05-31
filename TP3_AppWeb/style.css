@@ -46,7 +46,7 @@
   }
 .bodyinscription {
     /* Spécifie l'image à utiliser comme arrière-plan */
-    background-image: url('images/money-card-business-credit-card-50987.jpeg');
+    background-image: url('images/wp4316549.webp');
 
     /* Ajuste le comportement de l'image de fond */
     background-size: cover; /* Couvre l'intégralité de l'arrière-plan */
@@ -80,7 +80,7 @@
 
 
     --fc-border-color: #ECEFF9;
-    --fc-normal-text-color: #0E0B3D;
+    --fc-normal-text-color: #4e4e55;
     --fc-normal-placeholder-color: #B3B8D0;
 
 
