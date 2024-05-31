@@ -1,38 +1,26 @@
 .button {
-    display: inline-block;
+    display:flex;
     padding: 10px 20px;
-    background-color: #04a3fffd;
+    background-color: #48728afd;
     color: #fff;
-    text-decoration: none;
+    text-decoration:solid;
+    font-size: 17px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    
   }
 /* Style pour le survol des boutons */
 .button:hover {
     background-color: #0056b3;
   }
-  
-  /* Style spécifique pour chaque bouton */
-  #accueil-btn {
-    /* Ajoutez ici des styles spécifiques pour le bouton Accueil */
-  }
-  
-  #services-btn {
-    /* Ajoutez ici des styles spécifiques pour le bouton Nos Services */
-  }
-  
-  #partenaires-btn {
-    /* Ajoutez ici des styles spécifiques pour le bouton Nos Partenaires */
-  }  
-
+ 
+ 
 .containerlangue {
     margin: 20px 0;
 }
 
-th {
-    position: relative;
-
-}
 
 .container {
     float: right;
