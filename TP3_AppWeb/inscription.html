@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1200, initial-scale=1.0">
-    <title>Contacter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    
 </head>
-
-<body>
-    <header class="header">
-        <!-- Navigation principale-->
-        <table>
-         <tr>
-             <th><a href="index.html"><img src="images/logoB.png" alt="Logo du TAZ" width="100" height="100" /></a></th>
-             <th><a href="services.html">Nos Services</a></th>
-             <th><a href="propos.html">À Propos</a></th>
-             <th><a href="partenaires.html">Nos Partenaires</a></th>
-             <th width="100%"></th> 
-             <th><a href="services.html"><img src="images/loupe.png" alt="Logo du TAZ" width="40" height="40" /></a></th></th>               
-             <th><a href="inscription.html"><img src="images/etudiant.png"/></a></th>                
-         </tr>
-     </table>
-         </br>
-     <table>
-         <tr>
-             <th><a href="server.html">Comptes Bancaires</a></th>
-             <th><a href="server.html">Cartes de crédits</a></th>
-             <th><a href="server.html">Hypothèques</a></th>
-             <th><a href="server.html">Assurances</a></th>
-             <th width="100%"></th> 
-                         
-         </tr>
-     </table>
-     <img src="images/banner.jpg" alt="image banque" width="100%" height="300"/>
+    <body>
+        <header class="header">
+    <!-- Navigation principale-->
+    <table>
+        <tr>
+        <th><a href="index.html"><img src="images/logoB.png" alt="Logo de LaBrie" width="80" height="80" /></a></th>
+        <th><a href="inscription.html" class ="button">Comptes Bancaires</a></th>
+        <th><a href="services.html" class ="button">Nos Services</a></th>
+        <th><a href="propos.html" class ="button">À Propos</a></th>
+        <th><a href="partenaires.html" class ="button">Nos Partenaires</a></th>
+        <th><a href="server.html" class ="button">Partrimoine</a></th>              
+        <th width="100%"></th>       
+        <th><a href="services.html"><img src="images/loupe.png" alt="loupe" width="40" height="40" /></a></th></th>               
+        <th><a href="inscription.html"><img src="images/etudiant.png"/></a></th> 
+        <th><a href="server.html"><div class="containerlangue">
+            <select id="lang-select" name="languages">
+                <option value="fr">Français</option>
+                <option value="en">Anglais</option>
+                <option value="es">Espagnol</option>
+                <option value="de">Allemand</option>
+                <option value="it">Italien</option>
+                <option value="zh">Chinois</option>
+            </select>
+        </div></a></th>    
+        </tr>
+    </table>
+ 
+    <div class="container">
+    <table class="table2">
+        <tr class="options">
+            <th><a href="server.html" class ="button1">Épargnes</a></th>
+            <th><a href="server.html" class ="button1">Cartes de credits</a></th>
+            <th><a href="server.html" class ="button1">Hypothèques</a></th>
+            <th><a href="server.html" class ="button1">Assurances</a></th>
+            <th><a href="server.html" class ="button1">Placements</a></th> 
+            <th width="100%"></th>                     
+        </tr>
+    </table>
+    </div>
+     
      <!-- Présentation-->
-     <h1>Contactez-nous </br>dès maintenant</h1>      
+          
          </header>
     <br>
-       
-
+       <main class="bodyinscription">
+        
+        <h1>Créez un compte </br>dès maintenant</h1> 
             <h1>              
             <section class="formcarry-container">
                 <form action="/server.html" method="post">
@@ -145,7 +157,7 @@
     </br>
     Tous droits réservés © 2010-2024 </p>
     </div>
-</div>     
-</body>
+    </div>     
+    </body>
 
 </html>

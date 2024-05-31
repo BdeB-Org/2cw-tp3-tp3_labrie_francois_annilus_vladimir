@@ -45,16 +45,17 @@
     background-color: #0056b3;
   }
 .bodyinscription {
-    margin: 0;
-    padding: 0;
-    overflow: scroll;
+    /* Spécifie l'image à utiliser comme arrière-plan */
     background-image: url('images/money-card-business-credit-card-50987.jpeg');
-    background-size: cover; 
-    background-position: center;
-    background-attachment: fixed;
-    
 
-}
+    /* Ajuste le comportement de l'image de fond */
+    background-size: cover; /* Couvre l'intégralité de l'arrière-plan */
+    background-position: center; /* Centre l'image de fond */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    /* Vous pouvez également utiliser 'background-repeat: repeat;' si vous voulez répéter l'image */ 
+}  
+
+
 
 
 /* Début de formulaire */
@@ -247,7 +248,7 @@
 /* Fin de formulaire */
 
 .footer {
-    background-color: #e4edf5;
+    background-color: #332c2ce8;
     padding: 50px 0;
     color: #666;
     text-align: center;
